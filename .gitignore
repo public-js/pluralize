@@ -1,4 +1,4 @@
-## @public-js/fs-ext
+## @public-js/pluralize
 
 /.git
 /.svn
@@ -6,6 +6,7 @@
 /.vscode
 .gitattributes
 .npmrc
+/dist
 
 /node_modules
 /jspm_packages
