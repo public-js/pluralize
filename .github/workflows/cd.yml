@@ -19,11 +19,12 @@ jobs:
       - run: npm install
       - name: Build project
         run: npm run build
+      - name: Set NPM credentials
+        run: >-
+          npm config set _auth ${{ secrets.NPM_TOKEN }}
+          && npm config set registry https://registry.npmjs.org/
+          && npm config set always-auth=true
       - name: Publish to NPM (dry-run)
         run: npm publish --access public --dry-run
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       - name: Publish to NPM
         run: npm publish --access public
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
