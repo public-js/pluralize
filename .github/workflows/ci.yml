@@ -4,11 +4,26 @@ on:
   push:
     branches: [ dev ]
   pull_request:
-    branches: [ main ]
+    branches: [ dev, main ]
 
 jobs:
 
+  build:
+    name: Build project
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout commit
+        uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '12.x'
+      - run: npm install
+      - name: Build project
+        run: npm run build
+
   mocha-coverage-report:
+    needs: [ build ]
     name: Mocha coverage report
     runs-on: ubuntu-latest
     steps:
