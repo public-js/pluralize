@@ -1,10 +1,12 @@
 # @public-js/pluralize
 
 [![CI](https://img.shields.io/github/workflow/status/public-js/pluralize/CI?style=flat)](https://github.com/public-js/pluralize/actions?query=workflow%3ACI)
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/492e71bd7683414d9fa3a93e8957fcb0)](https://www.codacy.com/gh/public-js/pluralize/dashboard)
-[![Maintainability](https://api.codeclimate.com/v1/badges/58853747391fe57fe76b/maintainability)](https://codeclimate.com/github/public-js/pluralize/maintainability)
 [![Version](https://img.shields.io/npm/v/@public-js/pluralize?style=flat)](https://www.npmjs.com/package/@public-js/pluralize)
 [![License](https://img.shields.io/npm/l/@public-js/pluralize?style=flat)](https://www.npmjs.com/package/@public-js/pluralize)
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/492e71bd7683414d9fa3a93e8957fcb0)](https://www.codacy.com/gh/public-js/pluralize/dashboard)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/public-js/pluralize.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/public-js/pluralize/context:javascript)
+[![Maintainability](https://api.codeclimate.com/v1/badges/58853747391fe57fe76b/maintainability)](https://codeclimate.com/github/public-js/pluralize/maintainability)
 
 ---
 
